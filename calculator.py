@@ -15,7 +15,7 @@ while True:
     num2 = float(input("Enter operand #2: "))
 
     if choice == 1:
-        print("Result:", num1 - num2)            # BUG 1 
+        print("Result:", num1 + num2)            # BUG 1 
     elif choice == 2:
         print("Result:", num1 + num2)            # BUG 2
     elif choice == 3:
